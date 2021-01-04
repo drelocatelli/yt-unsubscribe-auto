@@ -6,10 +6,10 @@
 ```
 function desinscrever(){
     document.querySelectorAll("#subscribe-button > ytd-subscribe-button-renderer > paper-button").forEach(function(unsubscribeBtn){
-    
-    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
-    setTimeout(function(){ unsubscribeBtn.click()}, 3000)
+
+    setTimeout(function(){unsubscribeBtn.click()}, 3000)
     setTimeout(function(){ document.querySelector("#confirm-button > a").click() }, 3000)
+    setTimeout(function(){ window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);}, 3000)
 
 
     })

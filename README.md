@@ -3,7 +3,7 @@
 1. [Entre nesse link](https://www.youtube.com/feed/channels)
 
 2. Cole esse código no console do navegador:
-
+```
 function desinscrever(){
     document.querySelectorAll("#subscribe-button > ytd-subscribe-button-renderer > paper-button").forEach(function(unsubscribeBtn){
 
@@ -14,3 +14,4 @@ function desinscrever(){
     
 }
 desinscrever()
+```

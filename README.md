@@ -9,6 +9,7 @@ function desinscrever(){
 
     setTimeout(function(){ unsubscribeBtn.click()}, 3000)
     setTimeout(function(){ document.querySelector("#confirm-button > a").click() }, 3000)
+    window.scrollTo(0,document.body.scrollHeight);
 
     })
     
